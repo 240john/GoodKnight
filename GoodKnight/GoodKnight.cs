@@ -10,11 +10,21 @@ using System.Windows.Forms;
 
 namespace GoodKnight
 {
-    public partial class Form1 : Form
+    public partial class GoodKnight : Form
     {
-        public Form1()
+        public GoodKnight()
         {
             InitializeComponent();
+        }
+
+        private void numericUpDown1_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtDifficulty_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

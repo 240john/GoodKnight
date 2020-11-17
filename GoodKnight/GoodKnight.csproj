@@ -54,11 +54,11 @@
     <Compile Include="Dragon.cs" />
     <Compile Include="Enemy.cs" />
     <Compile Include="Equipment.cs" />
-    <Compile Include="Form1.cs">
+    <Compile Include="GoodKnight.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="GoodKnight.Designer.cs">
+      <DependentUpon>GoodKnight.cs</DependentUpon>
     </Compile>
     <Compile Include="GiantToad.cs" />
     <Compile Include="GoodStory.cs" />
@@ -73,6 +73,9 @@
     <Compile Include="Spider.cs" />
     <Compile Include="Story.cs" />
     <Compile Include="Weapons.cs" />
+    <EmbeddedResource Include="GoodKnight.resx">
+      <DependentUpon>GoodKnight.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
