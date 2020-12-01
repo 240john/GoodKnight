@@ -46,14 +46,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AdamantArmor.cs" />
     <Compile Include="Armor.cs" />
-    <Compile Include="BadStory.cs" />
     <Compile Include="Bear.cs" />
     <Compile Include="Bees.cs" />
     <Compile Include="Character.cs" />
+    <Compile Include="DiamondSword.cs" />
     <Compile Include="Dragon.cs" />
     <Compile Include="Enemy.cs" />
     <Compile Include="Equipment.cs" />
+    <Compile Include="GoldenSword.cs" />
     <Compile Include="GoodKnight.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -61,18 +63,23 @@
       <DependentUpon>GoodKnight.cs</DependentUpon>
     </Compile>
     <Compile Include="GiantToad.cs" />
-    <Compile Include="GoodStory.cs" />
     <Compile Include="HeavyKnight.cs" />
+    <Compile Include="IronArmor.cs" />
+    <Compile Include="IronSword.cs" />
+    <Compile Include="KingsSword.cs" />
     <Compile Include="Knight.cs" />
+    <Compile Include="LeatherArmor.cs" />
     <Compile Include="LightKnight.cs" />
     <Compile Include="MagicKnight.cs" />
-    <Compile Include="OkayStory.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ShinySword.cs" />
     <Compile Include="Special.cs" />
     <Compile Include="Spider.cs" />
+    <Compile Include="SteelArmor.cs" />
     <Compile Include="Story.cs" />
     <Compile Include="Weapons.cs" />
+    <Compile Include="WoodenSword.cs" />
     <EmbeddedResource Include="GoodKnight.resx">
       <DependentUpon>GoodKnight.cs</DependentUpon>
     </EmbeddedResource>

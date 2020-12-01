@@ -1,14 +1,16 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace GoodKnight
 {
-	public class Armor : Equipment
-	{
-		private int _DamageDeflected;
+    class AdamantArmor : Armor
+    {
+		private int _DamageDeflected = 10;
 		public int DamageDeflected
-        {
+		{
 			get
 			{
 				return _DamageDeflected;

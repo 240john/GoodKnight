@@ -6,6 +6,5 @@ namespace GoodKnight
 {
 	public class Equipment
 	{
-		string name;
 	}
 }
