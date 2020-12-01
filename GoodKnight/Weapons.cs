@@ -4,7 +4,7 @@ using System.Text;
 
 namespace GoodKnight
 {
-	public class Weapons : Equipment
+	abstract class Weapons : Equipment
 	{
 		private int _DamageBoost;
 

@@ -16,5 +16,11 @@ namespace GoodKnight
 				return _DamageDeflected;
 			}
 		}
+		public override void calculateDeflection(int luck, bool isHeavy)
+		{
+			_DamageDeflected = _DamageDeflected * (luck);
+			if (isHeavy == true)
+				_DamageDeflected = _DamageDeflected * 2;
+		}
 	}
 }

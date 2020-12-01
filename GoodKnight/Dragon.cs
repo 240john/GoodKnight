@@ -7,7 +7,7 @@ namespace GoodKnight
 	public class Dragon : Enemy
 	{
 		private int _Health = 50;
-		private int _Damage = 20;
+		private int _Damage = 5;
 		private bool _IsDrop = true;
 		private string _Drop = "King's Sword";
 		public int Damage

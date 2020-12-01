@@ -4,7 +4,7 @@ using System.Text;
 
 namespace GoodKnight
 {
-	public class Armor : Equipment
+	abstract class Armor : Equipment
 	{
 		private int _DamageDeflected;
 		public int DamageDeflected
@@ -14,5 +14,9 @@ namespace GoodKnight
 				return _DamageDeflected;
 			}
 		}
+		public virtual void calculateDeflection(int luck, bool isHeavy)
+        {
+			_DamageDeflected = _DamageDeflected * (luck - 1);
+        }
 	}
 }

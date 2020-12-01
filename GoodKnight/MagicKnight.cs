@@ -56,17 +56,6 @@ namespace GoodKnight
 				return _Luck;
 			}
 		}
-		public int Resistance
-		{
-			set
-			{
-				_Resistance = value;
-			}
-			get
-			{
-				return _Resistance;
-			}
-		}
 		public MagicKnight()
         {
 
